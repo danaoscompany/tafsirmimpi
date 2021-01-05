@@ -29,22 +29,40 @@ class User extends CI_Controller {
 		$type = $this->input->post('type'); // kata, angka
 		$numbers = [];
 		if ($type == 'kata') {
-			$number = $this->db->query("SELECT * FROM `numbers_2a` WHERE LOWER(`keyword_1`) LIKE '%" . $keyword . "%'")->row_array();
-			array_push($numbers, array(
-				'image' => $this->db->query("SELECT * FROM `number_2a_images` WHERE `number`='" . $number['number_1']. "'")->row_array()['image']
-			));
-			array_push($numbers, array(
-				'image' => $this->db->query("SELECT * FROM `number_2a_images` WHERE `number`='" . $number['number_2']. "'")->row_array()['image']
-			));
-			array_push($numbers, array(
-				'image' => $this->db->query("SELECT * FROM `number_2a_images` WHERE `number`='" . $number['number_3']. "'")->row_array()['image']
-			));
-			array_push($numbers, array(
-				'image' => $this->db->query("SELECT * FROM `number_2a_images` WHERE `number`='" . $number['number_4']. "'")->row_array()['image']
-			));
-			array_push($numbers, array(
-				'image' => $this->db->query("SELECT * FROM `number_2a_images` WHERE `number`='" . $number['number_5']. "'")->row_array()['image']
-			));
+			$tmpNumbers = $this->db->query("SELECT * FROM `numbers_2a` WHERE LOWER(`keyword_1`) LIKE '%" . $keyword . "%'")->result_array();
+			for ($i=0; $i<sizeof($tmpNumbers); $i++) {
+				$tmpNumber = $tmpNumbers[$i];
+				$image = $this->db->query("SELECT * FROM `number_2a_images` WHERE `number`='" . $tmpNumber['number_1']. "'")->row_array();
+				if ($image != NULL) {
+					array_push($numbers, array(
+						'image' => $image['image']
+					));
+				}
+				/*$image = $this->db->query("SELECT * FROM `number_2a_images` WHERE `number`='" . $tmpNumber['number_2']. "'")->row_array();
+				if ($image != NULL) {
+					array_push($numbers, array(
+						'image' => $image['image']
+					));
+				}
+				$image = $this->db->query("SELECT * FROM `number_2a_images` WHERE `number`='" . $tmpNumber['number_3']. "'")->row_array();
+				if ($image != NULL) {
+					array_push($numbers, array(
+						'image' => $image['image']
+					));
+				}
+				$image = $this->db->query("SELECT * FROM `number_2a_images` WHERE `number`='" . $tmpNumber['number_4']. "'")->row_array();
+				if ($image != NULL) {
+					array_push($numbers, array(
+						'image' => $image['image']
+					));
+				}
+				$image = $this->db->query("SELECT * FROM `number_2a_images` WHERE `number`='" . $tmpNumber['number_5']. "'")->row_array();
+				if ($image != NULL) {
+					array_push($numbers, array(
+						'image' => $image['image']
+					));
+				}*/
+			}
 		} else if ($type == 'angka') {
 			$image = $this->db->query("SELECT * FROM `number_2a_images` WHERE `number`='" . $keyword . "'")->row_array()['image'];
 			$numbersLength = $this->db->query("SELECT * FROM `numbers_2a` WHERE `number_1`='" . trim($keyword) . "'")->num_rows();
@@ -53,7 +71,7 @@ class User extends CI_Controller {
 					'image' => $image
 				));
 			}
-			$numbersLength = $this->db->query("SELECT * FROM `numbers_2a` WHERE `number_2`='" . trim($keyword) . "'")->num_rows();
+			/*$numbersLength = $this->db->query("SELECT * FROM `numbers_2a` WHERE `number_2`='" . trim($keyword) . "'")->num_rows();
 			for ($i=0; $i<$numbersLength; $i++) {
 				array_push($numbers, array(
 					'image' => $image
@@ -76,7 +94,7 @@ class User extends CI_Controller {
 				array_push($numbers, array(
 					'image' => $image
 				));
-			}
+			}*/
 		}
 		echo json_encode($numbers);
 	}
@@ -130,23 +148,26 @@ class User extends CI_Controller {
 		$type = $this->input->post('type'); // kata, angka
 		$numbers = [];
 		if ($type == 'kata') {
-			$number = $this->db->query("SELECT * FROM `numbers_3a` WHERE LOWER(`keyword_1`) LIKE '%" . $keyword . "%'")->row_array();
-			array_push($numbers, array(
-				'keyword' => $number['keyword_1'],
-				'number' => $number['number_1']
-			));
-			array_push($numbers, array(
-				'keyword' => $number['keyword_2'],
-				'number' => $number['number_2']
-			));
-			array_push($numbers, array(
-				'keyword' => $number['keyword_3'],
-				'number' => $number['number_3']
-			));
-			array_push($numbers, array(
-				'keyword' => $number['keyword_4'],
-				'number' => $number['number_4']
-			));
+			$tmpNumbers = $this->db->query("SELECT * FROM `numbers_3a` WHERE LOWER(`keyword_1`) LIKE '%" . $keyword . "%'")->result_array();
+			for ($i=0; $i<sizeof($tmpNumbers); $i++) {
+				$tmpNumber = $tmpNumbers[$i];
+				array_push($numbers, array(
+					'keyword' => $tmpNumber['keyword_1'],
+					'number' => $tmpNumber['number_1']
+				));
+				/*array_push($numbers, array(
+					'keyword' => $tmpNumber['keyword_1'],
+					'number' => $tmpNumber['number_2']
+				));
+				array_push($numbers, array(
+					'keyword' => $tmpNumber['keyword_1'],
+					'number' => $tmpNumber['number_3']
+				));
+				array_push($numbers, array(
+					'keyword' => $tmpNumber['keyword_1'],
+					'number' => $tmpNumber['number_4']
+				));*/
+			}
 		} else if ($type == 'angka') {
 			$tmpNumbers = $this->db->query("SELECT * FROM `numbers_3a` WHERE `number_1`='" . trim($keyword) . "'")->result_array();
 			for ($i=0; $i<sizeof($tmpNumbers); $i++) {
@@ -156,7 +177,7 @@ class User extends CI_Controller {
 					'number' => $number['number_1']
 				));
 			}
-			$tmpNumbers = $this->db->query("SELECT * FROM `numbers_3a` WHERE `number_2`='" . trim($keyword) . "'")->result_array();
+			/*$tmpNumbers = $this->db->query("SELECT * FROM `numbers_3a` WHERE `number_2`='" . trim($keyword) . "'")->result_array();
 			for ($i=0; $i<sizeof($tmpNumbers); $i++) {
 				$number = $tmpNumbers[$i];
 				array_push($numbers, array(
@@ -179,7 +200,7 @@ class User extends CI_Controller {
 					'keyword' => $number['keyword_1'],
 					'number' => $number['number_4']
 				));
-			}
+			}*/
 		}
 		echo json_encode($numbers);
 	}
@@ -214,15 +235,18 @@ class User extends CI_Controller {
 		$type = $this->input->post('type'); // kata, angka
 		$numbers = [];
 		if ($type == 'kata') {
-			$number = $this->db->query("SELECT * FROM `numbers_4a` WHERE LOWER(`keyword_1`) LIKE '%" . $keyword . "%'")->row_array();
-			array_push($numbers, array(
-				'keyword' => $number['keyword_1'],
-				'number' => $number['number_1']
-			));
-			array_push($numbers, array(
-				'keyword' => $number['keyword_1'],
-				'number' => $number['number_3']
-			));
+			$tmpNumbers = $this->db->query("SELECT * FROM `numbers_4a` WHERE LOWER(`keyword_1`) LIKE '%" . $keyword . "%'")->result_array();
+			for ($i=0; $i<sizeof($tmpNumbers); $i++) {
+				$tmpNumber = $tmpNumbers[$i];
+				array_push($numbers, array(
+					'keyword' => $tmpNumber['keyword_1'],
+					'number' => $tmpNumber['number_1']
+				));
+				/*array_push($numbers, array(
+					'keyword' => $tmpNumber['keyword_1'],
+					'number' => $tmpNumber['number_3']
+				));*/
+			}
 		} else if ($type == 'angka') {
 			$tmpNumbers = $this->db->query("SELECT * FROM `numbers_4a` WHERE `number_1`='" . trim($keyword) . "'")->result_array();
 			for ($i=0; $i<sizeof($tmpNumbers); $i++) {
@@ -232,7 +256,7 @@ class User extends CI_Controller {
 					'number' => $number['number_1']
 				));
 			}
-			$tmpNumbers = $this->db->query("SELECT * FROM `numbers_4a` WHERE `number_2`='" . trim($keyword) . "'")->result_array();
+			/*$tmpNumbers = $this->db->query("SELECT * FROM `numbers_4a` WHERE `number_2`='" . trim($keyword) . "'")->result_array();
 			for ($i=0; $i<sizeof($tmpNumbers); $i++) {
 				$number = $tmpNumbers[$i];
 				array_push($numbers, array(
@@ -247,7 +271,7 @@ class User extends CI_Controller {
 					'keyword' => $number['keyword_1'],
 					'number' => $number['number_3']
 				));
-			}
+			}*/
 		}
 		echo json_encode($numbers);
 	}
