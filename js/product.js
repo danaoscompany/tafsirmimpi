@@ -34,7 +34,7 @@ function getProducts() {
 
 function viewQR(index) {
 	var product = products[index];
-	$.redirect('http://danaos.xyz/tafsirmimpi/product/view_qr', {
+	$.redirect('http://apps.n29itech.xyz/tafsir_mimpi/product/view_qr', {
 		'product_code': product['code']
 	});
 }
@@ -74,7 +74,7 @@ function printNext() {
 
 function editProduct(index) {
 	var product = products[index];
-	$.redirect('http://danaos.xyz/tafsirmimpi/product/edit', {
+	$.redirect('http://apps.n29itech.xyz/tafsir_mimpi/product/edit', {
 		'id': parseInt(product['id'])
 	});
 }

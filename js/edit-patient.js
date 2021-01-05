@@ -67,7 +67,7 @@ function save() {
 		contentType: false,
 		cache: false,
 		success: function(response) {
-			$.redirect("http://danaos.xyz/tafsirmimpi/patients", {
+			$.redirect("http://apps.n29itech.xyz/tafsir_mimpi/patients", {
 				'id': userID
 			});
 		}

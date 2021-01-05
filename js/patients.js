@@ -107,19 +107,19 @@ function getPatients(id) {
 }
 
 function viewImages(index) {
-	window.location.href = "http://danaos.xyz/tafsirmimpi/image";
+	window.location.href = "http://apps.n29itech.xyz/tafsir_mimpi/image";
 }
 
 function viewDevices(index) {
-	window.location.href = "http://danaos.xyz/tafsirmimpi/devices?id="+patients[index]['id'];
+	window.location.href = "http://apps.n29itech.xyz/tafsir_mimpi/devices?id="+patients[index]['id'];
 }
 
 function viewPatients(index) {
-	window.location.href = "http://danaos.xyz/tafsirmimpi/patients?id="+patients[index]['id'];
+	window.location.href = "http://apps.n29itech.xyz/tafsir_mimpi/patients?id="+patients[index]['id'];
 }
 
 function editPatient(index) {
-	$.redirect("http://danaos.xyz/tafsirmimpi/patients/edit", {
+	$.redirect("http://apps.n29itech.xyz/tafsir_mimpi/patients/edit", {
 		'id': parseInt(patients[index]['id']),
 		'uuid': patients[index]['uuid'],
 		'user_id': parseInt(patients[index]['user_id'])

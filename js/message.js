@@ -32,7 +32,7 @@ function getMessages() {
 				if (imgURL == null || imgURL == "") {
 					imgTag = "";
 				} else {
-					imgTag = "<img src='http://danaos.xyz/tafsirmimpi/userdata/images/"+imgURL+"' width='100px' height='100px'>";
+					imgTag = "<img src='http://apps.n29itech.xyz/tafsir_mimpi/userdata/images/"+imgURL+"' width='100px' height='100px'>";
 				}
 				$("#messages").append("<tr>" +
 					"                                        <th scope=\"row\">"+(i+1)+"</th>" +
@@ -51,7 +51,7 @@ function getMessages() {
 
 function editMessage(index) {
 	var message = messages[index];
-	$.redirect("http://danaos.xyz/tafsirmimpi/message/edit", {
+	$.redirect("http://apps.n29itech.xyz/tafsir_mimpi/message/edit", {
 		'id': parseInt(message['id'])
 	});
 }
@@ -75,7 +75,7 @@ function deleteMessage() {
 		contentType: false,
 		cache: false,
 		success: function(response) {
-			window.location.href = "http://danaos.xyz/tafsirmimpi/message";
+			window.location.href = "http://apps.n29itech.xyz/tafsir_mimpi/message";
 		}
 	});
 }

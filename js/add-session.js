@@ -77,7 +77,7 @@ function getPatients(userID) {
 						var selectedUserIndex = $("#users").prop('selectedIndex');
 						if (selectedUserIndex > 0) {
 							selectedUserIndex--;
-							$.redirect("http://danaos.xyz/tafsirmimpi/patients/add", {
+							$.redirect("http://apps.n29itech.xyz/tafsir_mimpi/patients/add", {
 								'id': users[selectedUserIndex]['id']
 							});
 						}

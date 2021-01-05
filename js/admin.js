@@ -30,7 +30,7 @@ function getAdmins() {
 }
 
 function editAdmin(index) {
-	$.redirect("http://danaos.xyz/tafsirmimpi/admin/edit", {
+	$.redirect("http://apps.n29itech.xyz/tafsir_mimpi/admin/edit", {
 		'id': admins[index]['id']
 	});
 }

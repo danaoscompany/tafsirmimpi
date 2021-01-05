@@ -31,7 +31,7 @@ function getStores() {
 
 function editStore(index) {
 	var store = stores[index];
-	$.redirect('http://danaos.xyz/tafsirmimpi/store/edit', {
+	$.redirect('http://apps.n29itech.xyz/tafsir_mimpi/store/edit', {
 		'id': parseInt(store['id'])
 	});
 }
@@ -49,7 +49,7 @@ function deleteStore(index) {
 			contentType: false,
 			cache: false,
 			success: function(response) {
-				window.location.href = "http://danaos.xyz/tafsirmimpi/store";
+				window.location.href = "http://apps.n29itech.xyz/tafsir_mimpi/store";
 			}
 		});
 	}

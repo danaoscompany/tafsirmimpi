@@ -68,7 +68,7 @@ function save() {
 			var obj = JSON.parse(response);
 			var responseCode = parseInt(obj['response_code']);
 			if (responseCode == 1) {
-				window.location.href = "http://danaos.xyz/tafsirmimpi/admin";
+				window.location.href = "http://apps.n29itech.xyz/tafsir_mimpi/admin";
 			}
 		}
 	});

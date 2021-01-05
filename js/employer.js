@@ -48,21 +48,21 @@ function getEmployers() {
 
 function viewDevices(index) {
 	var user = users[index];
-	$.redirect("http://danaos.xyz/tafsirmimpi/devices", {
+	$.redirect("http://apps.n29itech.xyz/tafsir_mimpi/devices", {
 		id: parseInt(user['id'])
 	});
 }
 
 function viewPatients(index) {
 	var user = users[index];
-	$.redirect("http://danaos.xyz/tafsirmimpi/patients", {
+	$.redirect("http://apps.n29itech.xyz/tafsir_mimpi/patients", {
 		id: parseInt(user['id'])
 	});
 }
 
 function viewUser(index) {
 	var user = users[index];
-	$.redirect("http://danaos.xyz/tafsirmimpi/employer/view", {
+	$.redirect("http://apps.n29itech.xyz/tafsir_mimpi/employer/view", {
 		'employer_id': parseInt(user['id'])
 	});
 }

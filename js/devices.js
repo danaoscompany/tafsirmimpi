@@ -53,7 +53,7 @@ function getDevices() {
 }
 
 function editDevice(index) {
-	$.redirect("http://danaos.xyz/tafsirmimpi/devices/edit", {
+	$.redirect("http://apps.n29itech.xyz/tafsir_mimpi/devices/edit", {
 		'uuid': devices[index]['uuid'],
 		'id': devices[index]['user_id']
 	});
@@ -84,7 +84,7 @@ function deleteDevice() {
 }
 
 function addDevice() {
-	$.redirect("http://danaos.xyz/tafsirmimpi/devices/add", {
+	$.redirect("http://apps.n29itech.xyz/tafsir_mimpi/devices/add", {
 		id: userID
 	});
 }

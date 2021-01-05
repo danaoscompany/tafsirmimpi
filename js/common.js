@@ -41,7 +41,7 @@ function save() {
 		contentType: false,
 		cache: false,
 		success: function (response) {
-			window.location.href = "http://danaos.xyz/tafsirmimpi/common";
+			window.location.href = "http://apps.n29itech.xyz/tafsir_mimpi/common";
 		}
 	});
 }

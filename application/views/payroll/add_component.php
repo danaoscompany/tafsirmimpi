@@ -13,13 +13,13 @@
 		  content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"/>
 	<meta name="description" content="Tables are the backbone of almost all web applications.">
 	<meta name="msapplication-tap-highlight" content="no">
-	<script src="http://danaos.xyz/tafsirmimpi/js/jquery.js"></script>
-	<script src="http://danaos.xyz/tafsirmimpi/js/global.js"></script>
-	<script src="http://danaos.xyz/tafsirmimpi/js/jquery.redirect.js"></script>
-	<script src="http://danaos.xyz/tafsirmimpi/js/moment.js"></script>
+	<script src="http://apps.n29itech.xyz/tafsir_mimpi/js/jquery.js"></script>
+	<script src="http://apps.n29itech.xyz/tafsir_mimpi/js/global.js"></script>
+	<script src="http://apps.n29itech.xyz/tafsir_mimpi/js/jquery.redirect.js"></script>
+	<script src="http://apps.n29itech.xyz/tafsir_mimpi/js/moment.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
-	<script src="http://danaos.xyz/tafsirmimpi/js/xlsx.full.min.js"></script>
-	<script src="http://danaos.xyz/tafsirmimpi/js/payroll_add_component.js"></script>
+	<script src="http://apps.n29itech.xyz/tafsir_mimpi/js/xlsx.full.min.js"></script>
+	<script src="http://apps.n29itech.xyz/tafsir_mimpi/js/payroll_add_component.js"></script>
 	<!--
 	=========================================================
 	* ArchitectUI HTML Theme Dashboard - v1.0.0
@@ -30,13 +30,13 @@
 	=========================================================
 	* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 	-->
-	<link href="http://danaos.xyz/tafsirmimpi/main.css" rel="stylesheet">
+	<link href="http://apps.n29itech.xyz/tafsir_mimpi/main.css" rel="stylesheet">
 </head>
 <body>
 <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
 	<div class="app-header header-shadow">
 		<div class="app-header__logo">
-			<img src="http://danaos.xyz/tafsirmimpi/assets/images/icon.png" width="30px" height="30px">
+			<img src="http://apps.n29itech.xyz/tafsir_mimpi/assets/images/icon.png" width="30px" height="30px">
 			<div class="header__pane ml-auto">
 				<div>
 					<button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
@@ -78,7 +78,7 @@
 									<a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
 									   class="p-0 btn">
 										<img width="42" height="42" class="rounded-circle"
-											 src="http://danaos.xyz/tafsirmimpi/images/profile_picture.png" alt=""
+											 src="http://apps.n29itech.xyz/tafsir_mimpi/images/profile_picture.png" alt=""
 											 style="border-radius: 21;">
 										<i class="fa fa-angle-down ml-2 opacity-8"></i>
 									</a>
@@ -105,7 +105,7 @@
 	<div class="app-main">
 		<div class="app-sidebar sidebar-shadow">
 			<div class="app-header__logo">
-				<img src="http://danaos.xyz/tafsirmimpi/assets/images/icon.png" width="30px" height="30px">
+				<img src="http://apps.n29itech.xyz/tafsir_mimpi/assets/images/icon.png" width="30px" height="30px">
 				<div class="header__pane ml-auto">
 					<div>
 						<button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
@@ -310,6 +310,6 @@
 </div>
 <input type="hidden" id="admin-id" value="<?php echo $adminID; ?>">
 <input id="import-xls" type="file" accept="application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" style="width: 0; height: 0; visibility: hidden;">
-<script type="text/javascript" src="http://danaos.xyz/tafsirmimpi/assets/scripts/main.js"></script>
+<script type="text/javascript" src="http://apps.n29itech.xyz/tafsir_mimpi/assets/scripts/main.js"></script>
 </body>
 </html>

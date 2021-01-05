@@ -69,7 +69,7 @@ function getSellers() {
 							anchorXUnits: 'fraction',
 							anchorYUnits: 'pixels',
 							opacity: 0.75,
-							src: 'http://danaos.xyz/tafsirmimpi/userdata/system/map.png'
+							src: 'http://apps.n29itech.xyz/tafsir_mimpi/userdata/system/map.png'
 						}))
 					});
 					feature.setStyle(iconStyle);
@@ -131,7 +131,7 @@ function save() {
 		contentType: false,
 		cache: false,
 		success: function(response) {
-			window.location.href = "http://danaos.xyz/tafsirmimpi/store";
+			window.location.href = "http://apps.n29itech.xyz/tafsir_mimpi/store";
 		}
 	});
 }

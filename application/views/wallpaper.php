@@ -13,11 +13,11 @@
           content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"/>
     <meta name="description" content="Tables are the backbone of almost all web applications.">
     <meta name="msapplication-tap-highlight" content="no">
-    <script src="http://danaos.xyz/tafsirmimpi/js/jquery.js"></script>
-    <script src="http://danaos.xyz/tafsirmimpi/js/global.js"></script>
-    <script src="http://danaos.xyz/tafsirmimpi/js/jquery.redirect.js"></script>
-    <script src="http://danaos.xyz/tafsirmimpi/js/moment.js"></script>
-    <script src="http://danaos.xyz/tafsirmimpi/js/wallpaper.js"></script>
+    <script src="http://apps.n29itech.xyz/tafsir_mimpi/js/jquery.js"></script>
+    <script src="http://apps.n29itech.xyz/tafsir_mimpi/js/global.js"></script>
+    <script src="http://apps.n29itech.xyz/tafsir_mimpi/js/jquery.redirect.js"></script>
+    <script src="http://apps.n29itech.xyz/tafsir_mimpi/js/moment.js"></script>
+    <script src="http://apps.n29itech.xyz/tafsir_mimpi/js/wallpaper.js"></script>
     <!--
     =========================================================
     * ArchitectUI HTML Theme Dashboard - v1.0.0
@@ -28,7 +28,7 @@
     =========================================================
     * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
     -->
-    <link href="http://danaos.xyz/tafsirmimpi/main.css" rel="stylesheet">
+    <link href="http://apps.n29itech.xyz/tafsir_mimpi/main.css" rel="stylesheet">
     <style>
         .image-hover {
             opacity: 0;
@@ -53,7 +53,7 @@
 <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
     <div class="app-header header-shadow">
         <div class="app-header__logo">
-            <img src="http://danaos.xyz/tafsirmimpi/assets/images/icon.png" width="30px" height="30px">
+            <img src="http://apps.n29itech.xyz/tafsir_mimpi/assets/images/icon.png" width="30px" height="30px">
             <div class="header__pane ml-auto">
                 <div>
                     <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
@@ -88,25 +88,25 @@
             <div class="app-header-left">
                 <ul class="header-menu nav">
                     <li class="nav-item">
-                        <a href="http://danaos.xyz/tafsirmimpi/admin" class="nav-link">
+                        <a href="http://apps.n29itech.xyz/tafsir_mimpi/admin" class="nav-link">
                             <i class="nav-link-icon fa fa-users-cog"> </i>
                             Admin
                         </a>
                     </li>
                     <li class="btn-group nav-item">
-                        <a href="http://danaos.xyz/tafsirmimpi/wallpaper" class="nav-link">
+                        <a href="http://apps.n29itech.xyz/tafsir_mimpi/wallpaper" class="nav-link">
                             <i class="nav-link-icon fa fa-images"></i>
                             Wallpaper
                         </a>
                     </li>
                     <li class="btn-group nav-item">
-                        <a href="http://danaos.xyz/tafsirmimpi/settings" class="nav-link">
+                        <a href="http://apps.n29itech.xyz/tafsir_mimpi/settings" class="nav-link">
                             <i class="nav-link-icon fa fa-tools"></i>
                             Pengaturan
                         </a>
                     </li>
                     <li class="dropdown nav-item">
-                        <a href="http://danaos.xyz/tafsirmimpi/logout" class="nav-link">
+                        <a href="http://apps.n29itech.xyz/tafsir_mimpi/logout" class="nav-link">
                             <i class="nav-link-icon fa fa-sign-out-alt"></i>
                             Logout
                         </a>
@@ -121,7 +121,7 @@
                                 <div class="btn-group">
                                     <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                        class="p-0 btn">
-                                        <img width="42" height="42" class="rounded-circle" src="http://danaos.xyz/tafsirmimpi/images/profile_picture.png" alt="" style="border-radius: 21;">
+                                        <img width="42" height="42" class="rounded-circle" src="http://apps.n29itech.xyz/tafsir_mimpi/images/profile_picture.png" alt="" style="border-radius: 21;">
                                         <i class="fa fa-angle-down ml-2 opacity-8"></i>
                                     </a>
                                     <div tabindex="-1" role="menu" aria-hidden="true"
@@ -145,7 +145,7 @@
     <div class="app-main">
         <div class="app-sidebar sidebar-shadow">
             <div class="app-header__logo">
-                <img src="http://danaos.xyz/tafsirmimpi/assets/images/icon.png" width="30px" height="30px">
+                <img src="http://apps.n29itech.xyz/tafsir_mimpi/assets/images/icon.png" width="30px" height="30px">
                 <div class="header__pane ml-auto">
                     <div>
                         <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
@@ -181,25 +181,25 @@
                     <ul class="vertical-nav-menu">
                         <li>
                         <li>
-                            <a href="http://danaos.xyz/tafsirmimpi/admin">
+                            <a href="http://apps.n29itech.xyz/tafsir_mimpi/admin">
                                 <i class="metismenu-icon pe-7s-users"></i>
                                 Admin
                             </a>
                         </li>
                         <li class="mm-active">
-                            <a href="http://danaos.xyz/tafsirmimpi/wallpaper">
+                            <a href="http://apps.n29itech.xyz/tafsir_mimpi/wallpaper">
                                 <i class="metismenu-icon pe-7s-photo"></i>
                                 Wallpaper
                             </a>
                         </li>
                         <li>
-                            <a href="http://danaos.xyz/tafsirmimpi/settings">
+                            <a href="http://apps.n29itech.xyz/tafsir_mimpi/settings">
                                 <i class="metismenu-icon pe-7s-settings"></i>
                                 Pengaturan
                             </a>
                         </li>
                         <li>
-                            <a href="http://danaos.xyz/tafsirmimpi/logout">
+                            <a href="http://apps.n29itech.xyz/tafsir_mimpi/logout">
                                 <i class="metismenu-icon pe-7s-close-circle"></i>
                                 Keluar
                             </a>
@@ -275,6 +275,6 @@
     </div>
 </div>
 <input type="hidden" id="admin-id" value="<?php echo $adminID; ?>">
-<script type="text/javascript" src="http://danaos.xyz/tafsirmimpi/assets/scripts/main.js"></script>
+<script type="text/javascript" src="http://apps.n29itech.xyz/tafsir_mimpi/assets/scripts/main.js"></script>
 </body>
 </html>

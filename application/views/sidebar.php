@@ -4,7 +4,7 @@
 	<ul class="vertical-nav-menu">
 		<li>
 		<li id="admin-menu" class="<?php echo ($current_menu == 'admin')?'mm-active':'' ?>">
-			<a href="http://danaos.xyz/tafsirmimpi/admin">
+			<a href="http://apps.n29itech.xyz/tafsir_mimpi/admin">
 				<i class="metismenu-icon pe-7s-users"></i>
 				Admin
 			</a>
@@ -17,13 +17,13 @@
 			</a>
 			<ul>
 				<li>
-					<a href="http://danaos.xyz/tafsirmimpi/number/number2a">
+					<a href="http://apps.n29itech.xyz/tafsir_mimpi/number/number2a">
 						<i class="metismenu-icon"></i>
 						Nomor
 					</a>
 				</li>
 				<li>
-					<a href="http://danaos.xyz/tafsirmimpi/number/number2a_image">
+					<a href="http://apps.n29itech.xyz/tafsir_mimpi/number/number2a_image">
 						<i class="metismenu-icon"></i>
 						Gambar
 					</a>
@@ -38,13 +38,13 @@
 			</a>
 			<ul>
 				<li>
-					<a href="http://danaos.xyz/tafsirmimpi/number/number3a">
+					<a href="http://apps.n29itech.xyz/tafsir_mimpi/number/number3a">
 						<i class="metismenu-icon"></i>
 						Nomor
 					</a>
 				</li>
 				<li>
-					<a href="http://danaos.xyz/tafsirmimpi/number/number3a_image">
+					<a href="http://apps.n29itech.xyz/tafsir_mimpi/number/number3a_image">
 						<i class="metismenu-icon"></i>
 						Gambar
 					</a>
@@ -59,13 +59,13 @@
 			</a>
 			<ul>
 				<li>
-					<a href="http://danaos.xyz/tafsirmimpi/number/number4a">
+					<a href="http://apps.n29itech.xyz/tafsir_mimpi/number/number4a">
 						<i class="metismenu-icon"></i>
 						Nomor
 					</a>
 				</li>
 				<li>
-					<a href="http://danaos.xyz/tafsirmimpi/number/number4a_image">
+					<a href="http://apps.n29itech.xyz/tafsir_mimpi/number/number4a_image">
 						<i class="metismenu-icon"></i>
 						Gambar
 					</a>
@@ -73,13 +73,13 @@
 			</ul>
 		</li>
 		<li class="<?php echo ($current_menu == 'settings')?'mm-active':'' ?>">
-			<a href="http://danaos.xyz/tafsirmimpi/settings">
+			<a href="http://apps.n29itech.xyz/tafsir_mimpi/settings">
 				<i class="metismenu-icon pe-7s-settings"></i>
 				Pengaturan
 			</a>
 		</li>
 		<li class="<?php echo ($current_menu == 'logout')?'mm-active':'' ?>">
-			<a href="http://danaos.xyz/tafsirmimpi/logout">
+			<a href="http://apps.n29itech.xyz/tafsir_mimpi/logout">
 				<i class="metismenu-icon pe-7s-close-circle"></i>
 				Keluar
 			</a>

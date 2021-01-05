@@ -24,7 +24,7 @@ function login() {
 			localStorage.setItem("user_role", userRole);
 			localStorage.setItem("user_id", ""+userID);
 			if (responseCode == 1) {
-				window.location.href = "http://danaos.xyz/tafsirmimpi/admin";
+				window.location.href = "http://apps.n29itech.xyz/tafsir_mimpi/admin";
 			} else if (responseCode == -1) {
 				alert("Email atau kata sandi yang Anda masukkan salah.");
 			} else if (responseCode == -2) {

@@ -39,7 +39,7 @@ $(document).ready(function() {
 			anchorXUnits: 'fraction',
 			anchorYUnits: 'pixels',
 			opacity: 0.75,
-			src: 'http://danaos.xyz/tafsirmimpi/userdata/system/map.png'
+			src: 'http://apps.n29itech.xyz/tafsir_mimpi/userdata/system/map.png'
 		}))
 	});
 	feature.setStyle(iconStyle);

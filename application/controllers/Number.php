@@ -9,7 +9,7 @@ class Number extends CI_Controller {
 				'adminID' => $adminID
 			));
 		} else {
-			header('Location: http://danaos.xyz/tafsirmimpi/login');
+			header('Location: http://apps.n29itech.xyz/tafsir_mimpi/login');
 		}
 	}
 
@@ -20,7 +20,7 @@ class Number extends CI_Controller {
 				'adminID' => $adminID
 			));
 		} else {
-			header('Location: http://danaos.xyz/tafsirmimpi/login');
+			header('Location: http://apps.n29itech.xyz/tafsir_mimpi/login');
 		}
 	}
 
@@ -31,7 +31,7 @@ class Number extends CI_Controller {
 				'adminID' => $adminID
 			));
 		} else {
-			header('Location: http://danaos.xyz/tafsirmimpi/login');
+			header('Location: http://apps.n29itech.xyz/tafsir_mimpi/login');
 		}
 	}
 
@@ -42,7 +42,7 @@ class Number extends CI_Controller {
 				'adminID' => $adminID
 			));
 		} else {
-			header('Location: http://danaos.xyz/tafsirmimpi/login');
+			header('Location: http://apps.n29itech.xyz/tafsir_mimpi/login');
 		}
 	}
 
@@ -53,7 +53,7 @@ class Number extends CI_Controller {
 				'adminID' => $adminID
 			));
 		} else {
-			header('Location: http://danaos.xyz/tafsirmimpi/login');
+			header('Location: http://apps.n29itech.xyz/tafsir_mimpi/login');
 		}
 	}
 
@@ -64,7 +64,7 @@ class Number extends CI_Controller {
 				'adminID' => $adminID
 			));
 		} else {
-			header('Location: http://danaos.xyz/tafsirmimpi/login');
+			header('Location: http://apps.n29itech.xyz/tafsir_mimpi/login');
 		}
 	}
 }

@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Lihat Dokumen</title>
-	<script src="http://danaos.xyz/tafsirmimpi/js/jquery.js"></script>
+	<script src="http://apps.n29itech.xyz/tafsir_mimpi/js/jquery.js"></script>
 	<script
 			src="http://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.min.js">
 	</script>
