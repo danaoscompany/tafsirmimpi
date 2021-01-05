@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Lihat Dokumen</title>
-	<script src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/js/jquery.js"></script>
+	<script src="http://danaos.xyz/tafsirmimpi/js/jquery.js"></script>
 	<script
 			src="http://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.min.js">
 	</script>

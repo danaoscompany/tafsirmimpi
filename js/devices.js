@@ -53,7 +53,7 @@ function getDevices() {
 }
 
 function editDevice(index) {
-	$.redirect("http://0fcf2098e08f.ngrok.io/tafsirmimpi/devices/edit", {
+	$.redirect("http://danaos.xyz/tafsirmimpi/devices/edit", {
 		'uuid': devices[index]['uuid'],
 		'id': devices[index]['user_id']
 	});
@@ -84,7 +84,7 @@ function deleteDevice() {
 }
 
 function addDevice() {
-	$.redirect("http://0fcf2098e08f.ngrok.io/tafsirmimpi/devices/add", {
+	$.redirect("http://danaos.xyz/tafsirmimpi/devices/add", {
 		id: userID
 	});
 }

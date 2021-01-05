@@ -30,7 +30,7 @@ function getAdmins() {
 }
 
 function editAdmin(index) {
-	$.redirect("http://0fcf2098e08f.ngrok.io/tafsirmimpi/admin/edit", {
+	$.redirect("http://danaos.xyz/tafsirmimpi/admin/edit", {
 		'id': admins[index]['id']
 	});
 }

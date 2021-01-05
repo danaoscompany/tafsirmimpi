@@ -9,7 +9,7 @@ class Image extends CI_Controller {
 				'imgURL' => $imgURL
 			));
 		} else {
-			header('Location: http://0fcf2098e08f.ngrok.io/tafsirmimpi/login');
+			header('Location: http://danaos.xyz/tafsirmimpi/login');
 		}
 	}
 }

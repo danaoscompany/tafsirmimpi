@@ -4,9 +4,9 @@ class Main extends CI_Controller {
 
 	public function index() {
 		if ($this->session->logged_in == 1) {
-			header('Location: http://0fcf2098e08f.ngrok.io/tafsirmimpi/admin');
+			header('Location: http://danaos.xyz/tafsirmimpi/admin');
 		} else {
-			header('Location: http://0fcf2098e08f.ngrok.io/tafsirmimpi/login');
+			header('Location: http://danaos.xyz/tafsirmimpi/login');
 		}
 	}
 }

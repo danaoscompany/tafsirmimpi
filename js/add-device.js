@@ -42,7 +42,7 @@ function addDevice() {
 		contentType: false,
 		cache: false,
 		success: function(response) {
-			$.redirect("http://0fcf2098e08f.ngrok.io/tafsirmimpi/devices", {
+			$.redirect("http://danaos.xyz/tafsirmimpi/devices", {
 				id: userID
 			});
 		}

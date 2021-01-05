@@ -197,6 +197,6 @@ async function runPayroll() {
 			});
 	}).promise().done(function() {
 		$("#loading-bar-container").fadeOut(300);
-		window.location.href = "http://0fcf2098e08f.ngrok.io/tafsirmimpi/payroll"
+		window.location.href = "http://danaos.xyz/tafsirmimpi/payroll"
 	});
 }

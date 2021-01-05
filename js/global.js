@@ -1,4 +1,4 @@
-const HOST = "0fcf2098e08f.ngrok.io/tafsirmimpi";
+const HOST = "danaos.xyz/tafsirmimpi";
 const PHP_URL = "http://"+HOST+"/index.php";
 const USERDATA_URL = "http://"+HOST+"/userdata/";
 const SYSTEMDATA_URL = "http://"+HOST+"/systemdata/";
@@ -59,7 +59,7 @@ function uuidv4() {
 
 function logout() {
 	if (confirm("Apakah Anda yakin ingin keluar?")) {
-		window.location.href = "http://0fcf2098e08f.ngrok.io/tafsirmimpi/logout";
+		window.location.href = "http://danaos.xyz/tafsirmimpi/logout";
 	}
 }
 

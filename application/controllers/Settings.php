@@ -9,7 +9,7 @@ class Settings extends CI_Controller {
 				'adminID' => $adminID
 			));
 		} else {
-			header('Location: http://0fcf2098e08f.ngrok.io/tafsirmimpi/login');
+			header('Location: http://danaos.xyz/tafsirmimpi/login');
 		}
 	}
 }

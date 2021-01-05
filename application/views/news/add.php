@@ -11,9 +11,9 @@
 		  content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"/>
 	<meta name="description" content="Build whatever layout you need with our Architect framework.">
 	<meta name="msapplication-tap-highlight" content="no">
-	<script src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/js/jquery.js"></script>
-	<script src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/js/global.js"></script>
-	<script src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/js/add-news.js"></script>
+	<script src="http://danaos.xyz/tafsirmimpi/js/jquery.js"></script>
+	<script src="http://danaos.xyz/tafsirmimpi/js/global.js"></script>
+	<script src="http://danaos.xyz/tafsirmimpi/js/add-news.js"></script>
 	<!--
 	=========================================================
 	* ArchitectUI HTML Theme Dashboard - v1.0.0
@@ -24,13 +24,13 @@
 	=========================================================
 	* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 	-->
-	<link href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/main.css" rel="stylesheet">
+	<link href="http://danaos.xyz/tafsirmimpi/main.css" rel="stylesheet">
 </head>
 <body>
 <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
 	<div class="app-header header-shadow">
 		<div class="app-header__logo">
-			<img src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/assets/images/icon.png" width="30px" height="30px">
+			<img src="http://danaos.xyz/tafsirmimpi/assets/images/icon.png" width="30px" height="30px">
 			<div class="header__pane ml-auto">
 				<div>
 					<button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
@@ -65,55 +65,55 @@
 			<div class="app-header-left">
 				<ul class="header-menu nav">
 					<li class="nav-item">
-						<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/admin" class="nav-link">
+						<a href="http://danaos.xyz/tafsirmimpi/admin" class="nav-link">
 							<i class="nav-link-icon fa fa-users-cog"> </i>
 							Admin
 						</a>
 					</li>
 					<li class="btn-group nav-item">
-						<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/user" class="nav-link">
+						<a href="http://danaos.xyz/tafsirmimpi/user" class="nav-link">
 							<i class="nav-link-icon fa fa-user"></i>
 							User
 						</a>
 					</li>
 					<li class="btn-group nav-item">
-						<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/banner" class="nav-link">
+						<a href="http://danaos.xyz/tafsirmimpi/banner" class="nav-link">
 							<i class="nav-link-icon fa fa-bookmark"></i>
 							Banner
 						</a>
 					</li>
 					<li class="btn-group nav-item">
-						<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/store" class="nav-link">
+						<a href="http://danaos.xyz/tafsirmimpi/store" class="nav-link">
 							<i class="nav-link-icon fa fa-store"></i>
 							Toko
 						</a>
 					</li>
 					<li class="btn-group nav-item">
-						<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/product" class="nav-link">
+						<a href="http://danaos.xyz/tafsirmimpi/product" class="nav-link">
 							<i class="nav-link-icon fa fa-box-open"></i>
 							Produk
 						</a>
 					</li>
 					<li class="btn-group nav-item">
-						<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/news" class="nav-link">
+						<a href="http://danaos.xyz/tafsirmimpi/news" class="nav-link">
 							<i class="nav-link-icon fa fa-newspaper"></i>
 							Berita
 						</a>
 					</li>
 					<li class="btn-group nav-item">
-						<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/message" class="nav-link">
+						<a href="http://danaos.xyz/tafsirmimpi/message" class="nav-link">
 							<i class="nav-link-icon fa fa-envelope"></i>
 							Pesan
 						</a>
 					</li>
 					<li class="btn-group nav-item">
-						<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/settings" class="nav-link">
+						<a href="http://danaos.xyz/tafsirmimpi/settings" class="nav-link">
 							<i class="nav-link-icon fa fa-tools"></i>
 							Pengaturan
 						</a>
 					</li>
 					<li class="dropdown nav-item">
-						<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/logout" class="nav-link">
+						<a href="http://danaos.xyz/tafsirmimpi/logout" class="nav-link">
 							<i class="nav-link-icon fa fa-sign-out-alt"></i>
 							Logout
 						</a>
@@ -128,7 +128,7 @@
 								<div class="btn-group">
 									<a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
 									   class="p-0 btn">
-										<img width="42" height="42" class="rounded-circle" src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/images/profile_picture.png" alt="" style="border-radius: 21;">
+										<img width="42" height="42" class="rounded-circle" src="http://danaos.xyz/tafsirmimpi/images/profile_picture.png" alt="" style="border-radius: 21;">
 										<i class="fa fa-angle-down ml-2 opacity-8"></i>
 									</a>
 									<div tabindex="-1" role="menu" aria-hidden="true"
@@ -152,7 +152,7 @@
 	<div class="app-main">
 		<div class="app-sidebar sidebar-shadow">
 			<div class="app-header__logo">
-				<img src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/assets/images/icon.png" width="30px" height="30px">
+				<img src="http://danaos.xyz/tafsirmimpi/assets/images/icon.png" width="30px" height="30px">
 				<div class="header__pane ml-auto">
 					<div>
 						<button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
@@ -188,54 +188,54 @@
 					<ul class="vertical-nav-menu">
 						<li>
 						<li>
-							<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/admin">
+							<a href="http://danaos.xyz/tafsirmimpi/admin">
 								<i class="metismenu-icon pe-7s-users"></i>
 								Admin
 							</a>
 						</li>
 						<li>
-							<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/user">
+							<a href="http://danaos.xyz/tafsirmimpi/user">
 								<i class="metismenu-icon pe-7s-users"></i>
 								User
 							</a>
 						</li>
 						<li>
-							<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/banner">
+							<a href="http://danaos.xyz/tafsirmimpi/banner">
 								<i class="metismenu-icon pe-7s-flag"></i>
 								Banner
 							</a>
 						</li>
 						<li>
-							<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/store">
+							<a href="http://danaos.xyz/tafsirmimpi/store">
 								<i class="metismenu-icon pe-7s-shopbag"></i>
 								Toko
 							</a>
 						</li>
 						<li>
-							<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/product">
+							<a href="http://danaos.xyz/tafsirmimpi/product">
 								<i class="metismenu-icon pe-7s-cart"></i>
 								Produk
 							</a>
 						</li>
 						<li class="mm-active">
-							<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/news">
+							<a href="http://danaos.xyz/tafsirmimpi/news">
 								<i class="metismenu-icon pe-7s-news-paper"></i>
 								Berita
 							</a>
 						<li>
-							<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/message">
+							<a href="http://danaos.xyz/tafsirmimpi/message">
 								<i class="metismenu-icon pe-7s-mail-open"></i>
 								Pesan
 							</a>
 						</li>
 						<li>
-							<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/settings">
+							<a href="http://danaos.xyz/tafsirmimpi/settings">
 								<i class="metismenu-icon pe-7s-settings"></i>
 								Pengaturan
 							</a>
 						</li>
 						<li>
-							<a href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/logout">
+							<a href="http://danaos.xyz/tafsirmimpi/logout">
 								<i class="metismenu-icon pe-7s-close-circle"></i>
 								Keluar
 							</a>
@@ -384,6 +384,6 @@
 </div>
 <input id="admin-id" type="hidden" value="<?php echo $adminID; ?>">
 <input id="select-news-img" type="file" style="width: 0; height: 0; visibility: hidden;">
-<script type="text/javascript" src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/assets/scripts/main.js"></script>
+<script type="text/javascript" src="http://danaos.xyz/tafsirmimpi/assets/scripts/main.js"></script>
 </body>
 </html>

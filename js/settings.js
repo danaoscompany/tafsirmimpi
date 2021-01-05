@@ -41,13 +41,13 @@ function save() {
 		contentType: false,
 		cache: false,
 		success: function(response) {
-			window.location.href = "http://0fcf2098e08f.ngrok.io/tafsirmimpi/settings";
+			window.location.href = "http://danaos.xyz/tafsirmimpi/settings";
 		}
 	});
 }
 
 function cancel() {
 	if (confirm("Apakah Anda yakin ingin membatalkan perubahan?")) {
-		window.location.href='http://0fcf2098e08f.ngrok.io/tafsirmimpi/settings';
+		window.location.href='http://danaos.xyz/tafsirmimpi/settings';
 	}
 }

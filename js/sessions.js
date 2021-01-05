@@ -89,7 +89,7 @@ function getSessions(userID) {
 }
 
 function editSession(index) {
-	$.redirect('http://0fcf2098e08f.ngrok.io/tafsirmimpi/sessions/edit', {
+	$.redirect('http://danaos.xyz/tafsirmimpi/sessions/edit', {
 		'uuid': sessions[index]['uuid']
 	});
 }

@@ -41,7 +41,7 @@ function save() {
 		contentType: false,
 		cache: false,
 		success: function (response) {
-			window.location.href = "http://0fcf2098e08f.ngrok.io/tafsirmimpi/common";
+			window.location.href = "http://danaos.xyz/tafsirmimpi/common";
 		}
 	});
 }

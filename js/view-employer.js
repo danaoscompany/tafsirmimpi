@@ -109,7 +109,7 @@ function cancelEditing() {
 }
 
 function viewResume() {
-	$.redirect("http://0fcf2098e08f.ngrok.io/tafsirmimpi/pdf/view", {
+	$.redirect("http://danaos.xyz/tafsirmimpi/pdf/view", {
 		url: resumeURL
 	}, 'POST', '_blank');
 }

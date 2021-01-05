@@ -13,11 +13,11 @@
 		  content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"/>
 	<meta name="description" content="Tables are the backbone of almost all web applications.">
 	<meta name="msapplication-tap-highlight" content="no">
-	<script src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/js/jquery.js"></script>
-	<script src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/js/global.js"></script>
-	<script src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/js/jquery.redirect.js"></script>
-	<script src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/js/moment.js"></script>
-	<script src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/js/attendance.js"></script>
+	<script src="http://danaos.xyz/tafsirmimpi/js/jquery.js"></script>
+	<script src="http://danaos.xyz/tafsirmimpi/js/global.js"></script>
+	<script src="http://danaos.xyz/tafsirmimpi/js/jquery.redirect.js"></script>
+	<script src="http://danaos.xyz/tafsirmimpi/js/moment.js"></script>
+	<script src="http://danaos.xyz/tafsirmimpi/js/attendance.js"></script>
 	<!--
 	=========================================================
 	* ArchitectUI HTML Theme Dashboard - v1.0.0
@@ -28,13 +28,13 @@
 	=========================================================
 	* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 	-->
-	<link href="http://0fcf2098e08f.ngrok.io/tafsirmimpi/main.css" rel="stylesheet">
+	<link href="http://danaos.xyz/tafsirmimpi/main.css" rel="stylesheet">
 </head>
 <body>
 <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
 	<div class="app-header header-shadow">
 		<div class="app-header__logo">
-			<img src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/assets/images/icon.png" width="30px" height="30px">
+			<img src="http://danaos.xyz/tafsirmimpi/assets/images/icon.png" width="30px" height="30px">
 			<div class="header__pane ml-auto">
 				<div>
 					<button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
@@ -75,7 +75,7 @@
 								<div class="btn-group">
 									<a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
 									   class="p-0 btn">
-										<img width="42" height="42" class="rounded-circle" src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/images/profile_picture.png" alt="" style="border-radius: 21;">
+										<img width="42" height="42" class="rounded-circle" src="http://danaos.xyz/tafsirmimpi/images/profile_picture.png" alt="" style="border-radius: 21;">
 										<i class="fa fa-angle-down ml-2 opacity-8"></i>
 									</a>
 									<div tabindex="-1" role="menu" aria-hidden="true"
@@ -99,7 +99,7 @@
 	<div class="app-main">
 		<div class="app-sidebar sidebar-shadow">
 			<div class="app-header__logo">
-				<img src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/assets/images/icon.png" width="30px" height="30px">
+				<img src="http://danaos.xyz/tafsirmimpi/assets/images/icon.png" width="30px" height="30px">
 				<div class="header__pane ml-auto">
 					<div>
 						<button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
@@ -220,7 +220,7 @@
 	</div>
 </div>
 <input type="hidden" id="admin-id" value="<?php echo $adminID; ?>">
-<script type="text/javascript" src="http://0fcf2098e08f.ngrok.io/tafsirmimpi/assets/scripts/main.js"></script>
+<script type="text/javascript" src="http://danaos.xyz/tafsirmimpi/assets/scripts/main.js"></script>
 <div id="search-employer" style="position: fixed; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 2147483647;
 	display: none; justify-content: center; align-items: center;"
 	onclick="$('#search-employer').css('display', 'none')">
